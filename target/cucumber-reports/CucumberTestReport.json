@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "As a user I want to be able to login into",
+        "description": "my account",
+        "id": "i-want-to-login-into-my-account-to-purchase-an-item;as-a-user-i-want-to-be-able-to-login-into",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6399941800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on automation practice website",
+            "match": {
+              "location": "Loginsteps.i_am_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159890500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"email\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 9
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2862027100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on \"sign button\" to log into my account and select on \"women\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sign button",
+                  "offset": 12
+                },
+                {
+                  "val": "women",
+                  "offset": 63
+                }
+              ],
+              "location": "Loginsteps.i_click_on_to_log_into_my_account_and_select_on(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3432668800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select \"tops\" and select \"t-shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tops",
+                  "offset": 8
+                },
+                {
+                  "val": "t-shirt",
+                  "offset": 26
+                }
+              ],
+              "location": "Loginsteps.select_and_select(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37471400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add to \"cart\" and \"submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cart",
+                  "offset": 10
+                },
+                {
+                  "val": "submit",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.i_add_to_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to login into my account to purchase an item",
+    "description": "",
+    "id": "i-want-to-login-into-my-account-to-purchase-an-item",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@googleSearch"
+      },
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  }
+]

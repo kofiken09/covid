@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="13200" started-at="2020-07-25T08:54:10Z" finished-at="2020-07-25T08:54:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner@337d0578]" name="feature" class="runners.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="13200" started-at="2020-07-25T08:54:10Z" finished-at="2020-07-25T08:54:24Z">
+      <class name="runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner@337d0578]" name="setUpClass" is-config="true" duration-ms="200" started-at="2020-07-25T09:54:10Z" finished-at="2020-07-25T09:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner@337d0578]" name="feature" duration-ms="12919" started-at="2020-07-25T09:54:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-25T09:54:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I want to login into my account to purchase an item]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@337d0578]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2020-07-25T09:54:24Z" finished-at="2020-07-25T09:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
